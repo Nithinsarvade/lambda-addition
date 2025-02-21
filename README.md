@@ -1,6 +1,6 @@
 # AWS Lambda: Serverless Addition Function  
 
-This AWS Lambda function performs a simple arithmetic operation—adding two numbers. Designed for seamless integration with API Gateway, AWS SDK, or direct execution via the AWS Lambda console, it ensures high availability and scalability.  
+This AWS Lambda function performs a simple arithmetic operation adding two numbers. Designed for seamless integration with API Gateway, AWS SDK, or direct execution via the AWS Lambda console, it ensures high availability and scalability.  
 
 ---
 
