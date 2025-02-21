@@ -1,26 +1,27 @@
-# AWS Lambda Function: Add Two Numbers
+# AWS Lambda: Serverless Addition Function  
 
-This AWS Lambda function takes two numbers as input, adds them, and returns the result. It is designed to be triggered via an API Gateway, AWS SDK, or directly through the AWS Lambda console.
-
----
-
-# Features
-- Adds two numbers (`num1` and `num2`).
-- Returns the sum in JSON format.
-- Lightweight, fast, and serverless.
+This AWS Lambda function performs a simple arithmetic operation—adding two numbers. Designed for seamless integration with API Gateway, AWS SDK, or direct execution via the AWS Lambda console, it ensures high availability and scalability.  
 
 ---
 
-# Technologies Used
-- **AWS Lambda** (Serverless Function)
-- **Python 3.x** (Runtime)
-- **AWS CLI / Console** for deployment
+## Features  
+- Accepts two numeric inputs (`num1` and `num2`).  
+- Returns the computed sum in JSON format.  
+- Fully serverless and highly efficient.  
 
 ---
 
-# Input Format (JSON)
+## Technologies Used  
+- **AWS Lambda** (Serverless Execution)  
+- **Node.js** (Runtime)  
+- **API Gateway** (Optional for HTTP triggers)  
+- **AWS CLI / AWS Console** for deployment  
 
-json
+---
+
+## Example Input (JSON)  
+
+```json
 {
   "num1": 5,
   "num2": 7
